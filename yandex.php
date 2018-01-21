@@ -7,7 +7,7 @@ require_once('getid3/getid3.php');
 require_once('getid3/write.php');
 
 class YandexDisk {
-    private $token = 'AQAEA7qiKBKFAATDAPzhf55jkU3QlCext-2UxOw';
+    private $token = 'token here';
     private $header = array();
 
     
@@ -61,7 +61,7 @@ class AudioApi {
 
     private $user_agent = "VKAndroidApp/4.13.1-1206 (Android 4.4.4; SDK 19; armeabi; ; ru)";
     private $curl;
-    private $token = "71d8be6a5051f738e824b9a67fe4ac901253d7a8c75b9d2559114350047f8fadf199e8066c35f83182ee4";
+    private $token = "token here";
     
     function __construct() {
         $this->curl = curl_init();
@@ -98,7 +98,7 @@ class AudioApi {
 }
 
 class TelegramApi {
-    private $token = "526522955:AAH7hLi50_RBi4Ty5GO_cVFTbiaS-8SWAqk";
+    private $token = "token here";
 
     public function sendMessage() {
         
